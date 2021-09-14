@@ -10,7 +10,8 @@
         "test": "npx ts-mocha --bail test/**/*.test.ts",
         "clean_node_modules": "rm -rf ./node_modules",
         "clean_dist": "rm -rf ./dist",
-        "clean": "npm run clean_node_modules && npm run clean_dist"
+        "clean": "npm run clean_node_modules && npm run clean_dist",
+        "pub": "npm publish --access=public"
     },
     "author": "",
     "devDependencies": {
