@@ -1,0 +1,21 @@
+{
+    "name": "@lsby/promise_wait",
+    "version": "0.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "npm run watch",
+        "build": "npx tsc",
+        "watch": "npx tsc -w",
+        "test": "npx ts-mocha --bail test/**/*.test.ts",
+        "clean_node_modules": "rm -rf ./node_modules",
+        "clean_dist": "rm -rf ./dist",
+        "clean": "npm run clean_node_modules && npm run clean_dist"
+    },
+    "author": "",
+    "devDependencies": {
+        "@types/mocha": "^8.2.2",
+        "ts-mocha": "^8.0.0",
+        "typescript": "^4.2.4"
+    }
+}
